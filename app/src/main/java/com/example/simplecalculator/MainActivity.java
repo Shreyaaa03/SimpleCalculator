@@ -42,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+
     public void ButtonClick(View view){
         Button button = (Button) view;
         String data = button.getText().toString();
@@ -72,11 +73,12 @@ public class MainActivity extends AppCompatActivity {
                 if(input==null){
                     input= "";
                 }
-                if(data.equals("+")){
-                    
+                if(data.equals("+") || data.equals("-") || data.equals("/") ){
+                    Solve();
                 }
-
+                input+=data;
         }
+        Screen.setText(input);
     }
 
     private void Solve(){
