@@ -11,7 +11,7 @@ public class MainActivity extends AppCompatActivity {
 
     private TextView Screen;
     private Button AC, Power, Back, Div, Mul, Add, Sub, Zero, One, Two, Three, Four,
-    Five, Six, Seven, Eight, Nine, Ans, Point, Equal;
+    Five, Six, Seven, Eight, Nine, Point, Equal;
     private String input, answer;
 
     @Override
@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         Seven = findViewById(R.id.seven);
         Eight = findViewById(R.id.eight);
         Nine = findViewById(R.id.nine);
-        Ans = findViewById(R.id.ans);
+       // Ans = findViewById(R.id.ans);
         Point = findViewById(R.id.point);
         Equal = findViewById(R.id.equal);
 
