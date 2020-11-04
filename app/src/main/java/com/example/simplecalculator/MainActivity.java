@@ -42,7 +42,6 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-
     public void ButtonClick(View view){
         Button button = (Button) view;
         String data = button.getText().toString();
